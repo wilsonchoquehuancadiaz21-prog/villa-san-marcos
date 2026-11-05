@@ -24,3 +24,4 @@ Confirmar medidas de lotes, servicios, teléfonos y condiciones antes de publica
 
 SEGURIDAD:
 La clave incluida es publicable y solo sirve desde el navegador con las políticas RLS. Nunca publicar una clave service_role.
+Actualización para publicar Villa San Marcos
