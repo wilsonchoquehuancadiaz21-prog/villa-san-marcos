@@ -1,0 +1,26 @@
+PROYECTO VILLA SAN MARCOS - BAGUA GRANDE
+
+Contenido:
+- index.html: página pública.
+- admin.html: panel privado para subir y eliminar fotografías, videos y planos PDF.
+- assets/logo-villa-san-marcos.jpeg: logo enviado.
+- config.js: conexión pública al proyecto Supabase.
+- supabase_setup.sql: configuración de tabla, almacenamiento y permisos.
+
+ANTES DE PUBLICAR:
+1. En Supabase > SQL Editor, ejecutar el contenido de supabase_setup.sql.
+2. El bucket acepta imágenes, videos MP4/WebM y documentos PDF. Los planos PDF se muestran como botón “Ver plano” en la galería pública. El administrador puede eliminarlos desde admin.html.
+2. Confirmar que el usuario administrador alexanderchoquehuancadiaz@gmail.com ya existe en Authentication.
+3. Publicar TODO el contenido de esta carpeta en un hosting estático (Vercel mediante GitHub, Netlify, etc.).
+4. Abrir /admin.html para entrar con la cuenta de administrador.
+
+UBICACIÓN:
+El mapa muestra una búsqueda de “Sector Goncha, Carretera a Goncha, Bagua Grande, Amazonas, Perú”.
+No se ha fijado un pin GPS exacto porque todavía no se proporcionaron coordenadas o un enlace de ubicación compartida. Enviar ubicación de Google Maps para colocar el pin exacto.
+
+PRECIOS:
+Desde S/ 30,000; separación S/ 500; inicial S/ 7,000.
+Confirmar medidas de lotes, servicios, teléfonos y condiciones antes de publicar anuncios definitivos.
+
+SEGURIDAD:
+La clave incluida es publicable y solo sirve desde el navegador con las políticas RLS. Nunca publicar una clave service_role.
